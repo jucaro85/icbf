@@ -1,0 +1,51 @@
+/* ICBF Main Styles */
+body {
+  background: #F2F2F2;
+  font: 100% Raleway;
+  color: #444;
+  font-size: 14px; }
+
+#mainHeader-cont {
+  height: 100px; }
+
+#mainHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px; }
+
+#mainHeader-menu {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%); }
+
+#mainHeader-logo {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 50px; }
+
+.smallContainer {
+  width: 720px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 20px; }
+
+#mainHeader-menu li {
+  display: inline-block; }
+
+#mainHeader-menu a {
+  display: block;
+  padding: 20px; }
+
+#mainHeader-menu a:hover {
+  background: #069;
+  color: #FFF; }
+
+#galeria img {
+  max-width: 100%;
+  max-height: 500px;
+  display: block;
+  margin: 0 auto; }
